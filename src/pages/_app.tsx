@@ -1,6 +1,13 @@
-import '@/styles/globals.css'
-import type { AppProps } from 'next/app'
+import "@/styles/globals.css";
+import type { AppProps } from "next/app";
+import { montserratFont } from "@/assets/fonts";
 
 export default function App({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+  return (
+    <div
+      className={`min-h-[100dvh] flex bg-white flex-col ${montserratFont.className} text-dark font-medium`}
+    >
+      <Component {...pageProps} />
+    </div>
+  );
 }
