@@ -4,8 +4,6 @@ const HeadTags = () => (
   <NextSeo
     title="Doses de Amor Próprio - Gabriela Pita"
     description="O impulso que você precisa para se tornar a líder da própria vida"
-    robotsProps={{}}
-    canonical="https://www.gabrielapita.com/"
     additionalLinkTags={[
       {
         rel: "apple-touch-icon",

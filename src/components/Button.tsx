@@ -2,7 +2,7 @@ import { VariantProps, tv } from "tailwind-variants";
 
 const button = tv(
   {
-    base: "block text-center max-w-full py-1 font-bold px-4 md:px-8",
+    base: "flex items-center justify-center text-center max-w-full py-1 font-bold px-4 md:px-8",
     variants: {
       variant: {
         primary:
@@ -38,7 +38,7 @@ const button = tv(
 
 interface ButtonProps
   extends VariantProps<typeof button>,
-    React.ComponentPropsWithoutRef<"button"> {
+    React.ComponentPropsWithoutRef<"a"> {
   children: React.ReactNode;
   className?: string;
 }
@@ -49,16 +49,16 @@ export default function Button({
   size,
   radius,
   className,
-  type = "button",
   ...rest
 }: ButtonProps) {
   return (
-    <button
+    <a
       {...rest}
-      type={type}
+      target="_blank"
+      rel="noopener noreferrer"
       className={button({ variant, size, radius, className })}
     >
       {children}
-    </button>
+    </a>
   );
 }

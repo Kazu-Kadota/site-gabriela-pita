@@ -29,7 +29,10 @@ export default function Home() {
             para se tornar a{" "}
             <span className="text-primary">líder da própria vida</span>
           </h2>
-          <Button className="mt-5">
+          <Button
+            href="https://pay.hotmart.com/J83780970W?bid=1688144401149"
+            className="mt-5"
+          >
             QUERO RECEBER UMA DOSE DE AMOR
             <br />
             PRÓPRIO
@@ -72,12 +75,16 @@ export default function Home() {
           </Container>
         </section>
         <section className="bg-primary pb-10 pt-8 px-4 md:px-5">
-          <Container size="6xl">
+          <Container size="6xl" className="flex flex-col">
             <h3 className="text-white font-bold text-2xl sm:text-3xl md:text-4xl/snug xl:text-4.5xl leading-snug text-center">
               O Doses de Amor Próprio foi feito especialmente para{" "}
               <span className="font-extrabold">você!</span>
             </h3>
-            <Button variant="accent" className="mx-auto mt-5 md:min-w-[25rem]">
+            <Button
+              href="https://pay.hotmart.com/J83780970W?bid=1688144401149"
+              variant="accent"
+              className="mx-auto mt-5 md:min-w-[25rem]"
+            >
               QUERO GARANTIR MINHA VAGA
             </Button>
           </Container>
@@ -201,7 +208,7 @@ export default function Home() {
               contentDescription="Um encontro criado à partir das necessidades individuais do grupo"
             />
             <ProfessionalInfo
-              imageSrc="/leticia-ruba.jpg"
+              imageSrc="/juliana-oliveira.jpg"
               title="Dose Extra 4"
               name="Juliana Oliveira"
               occupation="Fisioterapeuta"
@@ -210,6 +217,7 @@ export default function Home() {
               reverse
             />
             <Button
+              href="https://pay.hotmart.com/J83780970W?bid=1688144401149"
               className="lg:absolute mx-auto mt-3 md:mt-12 md:min-w-[30rem] bottom-0 left-[10%] xl:left-[12%]"
               size="3xl"
               variant="primary2"
@@ -240,7 +248,7 @@ export default function Home() {
           </Container>
         </section>
         <section className="py-10 lg:pt-16 lg:pb-14 px-4 md:px-5">
-          <Container size="3xl">
+          <Container size="3xl" className="flex flex-col">
             <h5 className="text-center mb-8 text-primary text-2xl sm:text-3xl md:text-4xl font-bold">
               PERGUNTAS FREQUENTES
             </h5>
@@ -280,9 +288,10 @@ export default function Home() {
               ]}
             />
             <Button
+              href="https://hotmart.com/pt-br/marketplace/produtos/doses-de-amor-proprio/J83780970W"
               variant="success"
               size="2xl"
-              className="mx-auto md:min-w-[25rem] mt-12 sm:mt-14"
+              className="md:min-w-[25rem] self-center mt-12 sm:mt-14"
             >
               QUERO ENTRAR AGORA!
             </Button>
@@ -329,6 +338,7 @@ export default function Home() {
                 vida
               </h4>
               <Button
+                href="https://hotmart.com/pt-br/marketplace/produtos/doses-de-amor-proprio/J83780970W"
                 variant="success"
                 size="4xl"
                 className="w-[20rem] md:w-[40rem] mt-20 mx-auto"
@@ -347,7 +357,13 @@ export default function Home() {
               <span className="font-bold">Dúvidas</span> ou problemas para
               comprar?
             </h6>
-            <Button variant="accent" size="xl" radius="md" className="flex-1">
+            <Button
+              href="mailto:suporte@gabrielapita.com?subject=&body="
+              variant="accent"
+              size="xl"
+              radius="md"
+              className="flex-1"
+            >
               FALE COM NOSSA EQUIPE!
             </Button>
           </Container>
