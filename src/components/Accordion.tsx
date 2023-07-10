@@ -30,9 +30,9 @@ export default function Accordion({ items }: Props) {
             type="button"
             onClick={() => onClickElement(index)}
           >
-            <h6 className="flex-1 text-left text-primary text-sm md:text-base font-bold">
+            <p className="flex-1 text-left text-primary text-sm md:text-base font-bold">
               {item.title}
-            </h6>
+            </p>
             <ArrowDown
               className={`fill-gray/50 w-5 collapse-css-transition ${
                 elementsOpen[index] ? "rotate-180" : "rotate-0"

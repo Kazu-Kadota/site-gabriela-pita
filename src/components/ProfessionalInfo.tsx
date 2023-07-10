@@ -38,23 +38,23 @@ export default function ProfessionalInfo({
             reverse ? "ml-auto" : "mr-auto"
           )}
         >
-          <h5
+          <p
             className={`${cremepastryFont.className} text-black text-center text-2.5xl/none sm:text-3xl/none xl:text-4xl/none`}
           >
             {title}
-          </h5>
-          <h6 className="font-bold mt-1 text-primary text-lg/none sm:text-xl/none xl:text-2xl/none text-center">
+          </p>
+          <p className="font-bold mt-1 text-primary text-lg/none sm:text-xl/none xl:text-2xl/none text-center">
             {name}
-          </h6>
+          </p>
           <p className="italic font-normal text-primary text-sm/tight mt-1 sm:text-base/tight xl:text-lg/tight text-center">
             {occupation}
           </p>
         </div>
       </div>
       <div className="border-2 md:mt-12 xl:mt-14 flex-1 border-primary p-3 md:py-6 rounded-2xl">
-        <h6 className="text-black font-bold text-base/snug sm:text-lg/snug md:text-1.5xl xl:text-2.5xl text-center">
+        <p className="text-black font-bold text-base/snug sm:text-lg/snug md:text-1.5xl xl:text-2.5xl text-center">
           {contentTitle}
-        </h6>
+        </p>
         <p className="text-black text-sm md:text-base xl:text-lg mt-1 md:mt-3 text-center">
           {contentDescription}
         </p>

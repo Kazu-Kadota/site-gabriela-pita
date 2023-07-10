@@ -97,13 +97,13 @@ export default function Home() {
             fill
             className="object-cover object-top"
           />
-          <h3 className="text-primary mb-6 max-w-3xl mx-auto md:mb-10 relative text-2.5xl sm:text-4xl md:text-4.5xl xl:text-[2.9rem] xl:leading-[1.1] text-center">
+          <p className="text-primary mb-6 max-w-3xl mx-auto md:mb-10 relative text-2.5xl sm:text-4xl md:text-4.5xl xl:text-[2.9rem] xl:leading-[1.1] text-center">
             Serão{" "}
             <span className="font-bold">
               2 meses de encontros semanais ao vivo,
             </span>{" "}
             além de
-          </h3>
+          </p>
           <Container
             className="relative flex flex-col gap-5 sm:gap-7"
             size="2xl"
@@ -122,9 +122,9 @@ export default function Home() {
             className="opacity-80 z-0"
           />
           <div className="bg-white/30 absolute inset-0 z-10" />
-          <h3 className="text-primary relative z-20 text-center font-bold mb-6 md:mb-10 text-2xl sm:text-3.5xl lg:text-4xl xl:text-4.5xl">
+          <p className="text-primary relative z-20 text-center font-bold mb-6 md:mb-10 text-2xl sm:text-3.5xl lg:text-4xl xl:text-4.5xl">
             Conheça cada uma das Doses:
-          </h3>
+          </p>
           <Container className="relative z-20" size="7xl2">
             <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-6 gap-x-12 xl:gap-x-16 2xl:gap-x-20 justify-between">
               <ImageCard
@@ -233,10 +233,10 @@ export default function Home() {
             fill
           />
           <Container className="relative" size="2xl">
-            <h5 className="text-center text-white text-2xl/normal sm:text-3xl/normal lg:text-4xl/normal font-bold">
+            <p className="text-center text-white text-2xl/normal sm:text-3xl/normal lg:text-4xl/normal font-bold">
               Esse é o sinal que você queria para investir em você mesma
-            </h5>
-            <h4 className="flex mt-10 mb-4 sm:mb-8 flex-col font-light text-white text-base leading-none">
+            </p>
+            <p className="flex mt-10 mb-4 sm:mb-8 flex-col font-light text-white text-base leading-none">
               <span className="self-start sm:-mb-2 sm:-ml-1 md:ml-7 lg:-ml-1">
                 Por apenas 12x de
               </span>
@@ -244,14 +244,14 @@ export default function Home() {
                 R$ 87,83
               </span>
               <span className="self-end md:pr-8">ou R$ 880,00 à vista</span>
-            </h4>
+            </p>
           </Container>
         </section>
         <section className="py-10 lg:pt-16 lg:pb-14 px-4 md:px-5">
           <Container size="3xl" className="flex flex-col">
-            <h5 className="text-center mb-8 text-primary text-2xl sm:text-3xl md:text-4xl font-bold">
+            <h4 className="text-center mb-8 text-primary text-2xl sm:text-3xl md:text-4xl font-bold">
               PERGUNTAS FREQUENTES
-            </h5>
+            </h4>
             <Accordion
               items={[
                 {
@@ -333,10 +333,10 @@ export default function Home() {
           />
           <div className="absolute inset-x-0 translate-y-2/4 md:translate-y-0 bottom-[50%] md:bottom-[18%] px-3">
             <Container>
-              <h4 className="text-white text-2.5xl sm:text-4xl md:text-4.5xl lg:text-5.5xl xl:text-6.5xl !leading-[1.4] font-bold text-center">
+              <p className="text-white text-2.5xl sm:text-4xl md:text-4.5xl lg:text-5.5xl xl:text-6.5xl !leading-[1.4] font-bold text-center">
                 O impulso que você precisa para se tornar a líder da própria
                 vida
-              </h4>
+              </p>
               <Button
                 href="https://hotmart.com/pt-br/marketplace/produtos/doses-de-amor-proprio/J83780970W"
                 variant="success"
@@ -353,10 +353,10 @@ export default function Home() {
             className="flex lg:flex-row flex-col gap-8 lg:gap-5 items-center"
             size="4xl"
           >
-            <h6 className="text-white text-center lg:text-left text-1.5xl sm:text-2xl lg:flex-[1.45] font-normal">
+            <p className="text-white text-center lg:text-left text-1.5xl sm:text-2xl lg:flex-[1.45] font-normal">
               <span className="font-bold">Dúvidas</span> ou problemas para
               comprar?
-            </h6>
+            </p>
             <Button
               href="mailto:suporte@gabrielapita.com?subject=&body="
               variant="accent"

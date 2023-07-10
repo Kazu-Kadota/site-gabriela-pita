@@ -55,7 +55,6 @@ export default function Button({
     <a
       {...rest}
       target="_blank"
-      rel="noopener noreferrer"
       className={button({ variant, size, radius, className })}
     >
       {children}

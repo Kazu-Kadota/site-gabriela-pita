@@ -26,11 +26,11 @@ export default function ImageCard({
         className="w-[323px]"
       />
       <div className="absolute max-w-full p-2 inset-x-0 bottom-6 sm:bottom-auto sm:top-[62%] md:top-[47%] xl:top-[62%] 2xl:top-[67%]">
-        <h5
+        <p
           className={`text-white text-2xl text-center ${cremepastryFont.className}`}
         >
           {title}
-        </h5>
+        </p>
         <p className="text-white text-sm/snug text-center mt-3">
           {description}
         </p>
